@@ -1,0 +1,31 @@
+@import 'flexbox.css';
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+	background: #99FFFF;
+}
+
+
+section.contact .card-wrapper{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+}
+
+section.contact .card-wrapper .card{
+	text-align: center;
+}
+
+section.contact h1{
+	text-align: center;
+}
+section.contact p{
+	text-align: center;
+}
+
+div.input-wrap form{
+	text-align: center;
+}

@@ -1,0 +1,69 @@
+
+@import 'flexbox.css';
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family:sans-serif;
+}
+
+header{
+	background: #161616;
+	height: 700px;
+}
+
+.container{
+	max-width: 1100px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+header nav .l a{
+	color:#FFFFFF;
+	text-decoration: none;
+	margin-right: 2rem;
+	text-transform: uppercase;
+	transition: all .3s ease;
+
+}
+
+header nav .l a:hover{
+	color: #3DCFD3;
+	background-color: #fff;
+}
+
+header nav{
+	padding: 2rem 0;
+}
+
+
+header nav .logo{
+	margin-right: 4rem;
+}
+
+.char .l img{
+	width: 300px;
+}
+.char .r{
+	color: #FFFFFF;
+}
+.char .r h4{
+	font-size: 1.5rem;
+	color: #3DCFD3;
+	margin-bottom: 0.6rem;
+}
+
+.char .r h1{
+	font-size: 4rem;
+	font-weight: 100;
+	line-height: 1.3;
+	margin-bottom: 2rem;
+} 
+
+.char .r p{
+	line-height: 1.8;
+	margin-bottom: 2rem;
+}

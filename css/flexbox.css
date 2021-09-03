@@ -1,0 +1,21 @@
+.flex{
+	display: flex;
+}
+
+.items-center{
+	align-items: center;
+}
+
+.justify-content{
+	justify-content: space-between;
+}
+
+.b1{
+	padding: 1rem 3rem;
+	font-weight: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+}
+.flex-1{
+	flex: 1;
+}
